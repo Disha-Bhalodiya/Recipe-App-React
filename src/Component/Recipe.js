@@ -9,7 +9,7 @@ function Recipe() {
   const [query,setQuery]=useState(""); //create for store input value
   const [recipes,setRecipe]=useState([]); //create for store data about the recipe 
   
-  const YOUR_APP_ID = `your app id`; //app is from edamam api
+  const YOUR_APP_ID = `your app id`; //app id from edamam api
   const YOUR_APP_KEY = "your api key"; //api key
 
   const url = `https://api.edamam.com/search?q=${query}&app_id=${YOUR_APP_ID}&app_key=${YOUR_APP_KEY}`;
