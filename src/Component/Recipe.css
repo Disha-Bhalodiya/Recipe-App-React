@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #FCF6F5;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    text-align: center;
+    font-size: 30px;
+    margin-top: 20px;
+    color: #333;
+}
+
+form {
+    text-align: center;
+    margin-top: 20px;
+}
+
+input[type="text"] {
+    width: 300px;
+    padding: 11px 10px;
+    border: 1px solid #234E70;
+    border-radius: 5px;
+    font-size: 16px;
+    outline: none;
+}
+
+::placeholder {
+    color: black;
+}
+
+input[type="submit"] {
+    padding: 12px 17px;
+    border-radius: 5px;
+    outline: none;
+    margin: 4px;
+    border: 1px solid #201f1f;
+    background-color: #234E70;
+    color: white;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+input[type="text"]:focus {
+    border: 2px solid #234E70;
+}
+
+input[type="submit"]:hover {
+    background-color: #FCF6F5;
+    color: #234E70;
+}
+
+input[type="text"]::placeholder {
+    color: #999;
+}
+
+.recipe-img {
+    height: 250px;
+    width: 350px;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+.recipe-name {
+    max-width: 200px;
+    text-align: center;
+    margin: 12px 0px;
+}
+
+.recipe {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.app-recipe {
+    margin-top: 24px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: baseline;
+    margin: 60px;
+}
